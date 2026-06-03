@@ -115,6 +115,9 @@ export default function Home() {
           <h2 className="bn text-base font-semibold" style={{ color: "var(--text)" }}>
             আমাদের রাঁধুনিরা
           </h2>
+          <Link href="/mothers" className="bn text-xs" style={{ color: "var(--gold)" }}>
+            সব দেখো →
+          </Link>
         </div>
 
         <div className="flex flex-col gap-3">

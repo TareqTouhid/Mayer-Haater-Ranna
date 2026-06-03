@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import BottomNav from "./components/BottomNav";
 
 export const metadata: Metadata = {
   title: "মায়ের হাতের রান্না",
@@ -33,6 +34,7 @@ export default function RootLayout({
       <body>
         <div className="mx-auto max-w-md min-h-dvh relative">
           {children}
+          <BottomNav />
         </div>
       </body>
     </html>
