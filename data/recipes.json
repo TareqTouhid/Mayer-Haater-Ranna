@@ -1,0 +1,798 @@
+[
+  {
+    "id": "shatkora-gosto",
+    "motherId": "rokeya-begum",
+    "name": "সাতকরা গোশত",
+    "nameEn": "Beef with Shatkora",
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "servings": 6,
+    "tags": ["গরু", "সাতকরা", "সিলেট"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "গরুর মাংস", "nameEn": "beef", "amount": "১", "unit": "কেজি", "importance": "must", "keywords": ["গরু", "beef", "mangsho"] },
+      { "name": "সাতকরা", "nameEn": "shatkora", "amount": "৪", "unit": "টুকরো", "importance": "must", "keywords": ["সাতকরা", "shatkora"] },
+      { "name": "পেঁয়াজ কুচি", "nameEn": "chopped onion", "amount": "১", "unit": "কাপ", "importance": "must", "keywords": ["পেঁয়াজ", "onion"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "সাতকরা বেশি আগে দিবা না, তাইলে তরকারি তিতা অইযাইব। গোশত কষানি অইলে পরে দিবা।",
+        "note": "সাতকরার চামড়াটা একটু ছিলে নিলে ভালো।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "সব মসলা দিয়ে মাংস ভালোভাবে কষিয়ে নিন।", "timeMinutes": 30, "image": null },
+          { "step": 2, "instruction": "মাংস সেদ্ধ হয়ে আসলে সাতকরার টুকরোগুলো দিন।", "timeMinutes": 20, "image": null },
+          { "step": 3, "instruction": "ঝোল ঘন হলে নামিয়ে নিন।", "timeMinutes": 10, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "সাতকরা হলো সিলেটের একটি লেবুজাতীয় ফল যা মাংসে অনন্য ঘ্রাণ যোগ করে। অতিরিক্ত সেদ্ধ করলে এটি তেতো হয়ে যেতে পারে।",
+        "tips": ["সাতকরা রান্নার শেষ দিকে দিন", "সাদা অংশ বেশি থাকলে কেটে ফেলুন"]
+      }
+    }
+  },
+  {
+    "id": "akhni-polao",
+    "motherId": "rokeya-begum",
+    "name": "আখনি পোলাও",
+    "nameEn": "Akhni Polao",
+    "difficulty": 4,
+    "timeMinutes": 90,
+    "servings": 8,
+    "tags": ["পোলাও", "মাংস", "সিলেট"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "কালিজিরা চাল", "nameEn": "kalijeera rice", "amount": "১", "unit": "কেজি", "importance": "must", "keywords": ["চাল", "rice", "polao"] },
+      { "name": "গরুর মাংস", "nameEn": "beef", "amount": "১.৫", "unit": "কেজি", "importance": "must", "keywords": ["মাংস", "beef", "mangsho"] },
+      { "name": "আখনি মসলা (পোটলা)", "nameEn": "akhni spice bag", "amount": "১", "unit": "টি", "importance": "must", "keywords": ["মসলা", "spice", "akhni"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "আখনির আসল স্বাদ অইলো পানিত। মসলার পোটলা দিয়া পানি ফুটাইবা, হেই পানি দিয়া চাল রান্ধবা।",
+        "note": "পানি মেপে দিবা, চালের ডাবল পানি।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "মসলার পোটলা দিয়ে মাংস ও পানির একটি স্টক (আখনি) তৈরি করুন।", "timeMinutes": 45, "image": null },
+          { "step": 2, "instruction": "মাংস তুলে নিয়ে সেই স্টকে চাল দিয়ে পোলাও রান্না করুন।", "timeMinutes": 30, "image": null },
+          { "step": 3, "instruction": "চাল ফুটে এলে মাংস মিশিয়ে দমে রাখুন।", "timeMinutes": 15, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "আখনি হলো মূলত মাংস সেদ্ধ করা সুগন্ধি পানি বা স্টক। এই স্টকে চাল রান্না করার কারণেই এর নাম আখনি পোলাও।",
+        "tips": ["পানির মাপ ঠিক রাখুন", "দমে অন্তত ১৫ মিনিট রাখুন"]
+      }
+    }
+  },
+  {
+    "id": "chunga-pitha",
+    "motherId": "rokeya-begum",
+    "name": "চুঙ্গা পিঠা",
+    "nameEn": "Chunga Pitha",
+    "difficulty": 5,
+    "timeMinutes": 120,
+    "servings": 4,
+    "tags": ["পিঠা", "বাঁশ", "সিলেট"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "বিরুন চাল", "nameEn": "sticky rice", "amount": "৫০০", "unit": "গ্রাম", "importance": "must", "keywords": ["চাল", "sticky rice", "pitha"] },
+      { "name": "ঢলু বাঁশ", "nameEn": "dholu bamboo", "amount": "২", "unit": "টুকরো", "importance": "must", "keywords": ["বাঁশ", "bamboo"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "ঢলু বাঁশ ছাড়া চুঙ্গা অয় না। চাল ভিজাইয়া বাঁশের ভিতরে দিয়া আগুনে পোড়ান লাগে।",
+        "note": "বাঁশ বেশি পুড়লে পিঠাও পুড়ব, খেয়াল রাখবা।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "বিরুন চাল কয়েক ঘণ্টা ভিজিয়ে রাখুন।", "timeMinutes": 10, "image": null },
+          { "step": 2, "instruction": "বাঁশের চোঙার ভেতর চাল ও পরিমাণমতো পানি দিন।", "timeMinutes": 10, "image": null },
+          { "step": 3, "instruction": "খড়কুটোর আগুনে বাঁশগুলো পুড়িয়ে পিঠা তৈরি করুন।", "timeMinutes": 100, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "চুঙ্গা পিঠা বাঁশের ভেতরে রান্না করা হয়, যা চালের মধ্যে একটি স্মোকি ঘ্রাণ তৈরি করে। এটি একটি ঐতিহ্যবাহী ও শ্রমসাধ্য প্রক্রিয়া।",
+        "tips": ["সঠিক বাঁশ নির্বাচন জরুরি", "আগুনের আঁচ নিয়ন্ত্রণ করুন"]
+      }
+    }
+  },
+  {
+    "id": "mezbani-gosto",
+    "motherId": "nurjahan-akter",
+    "name": "মেজবানি গোশত",
+    "nameEn": "Mezbani Gosht",
+    "difficulty": 4,
+    "timeMinutes": 120,
+    "servings": 10,
+    "tags": ["গরু", "মেজবান", "চট্টগ্রাম"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "গরুর মাংস (হাড় ও চর্বিসহ)", "nameEn": "beef with bone and fat", "amount": "২", "unit": "কেজি", "importance": "must", "keywords": ["গরু", "beef", "mangsho", "mezbani"] },
+      { "name": "মেজবানি মসলা", "nameEn": "mezbani spice mix", "amount": "৩", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["মসলা", "spice"] },
+      { "name": "সরিষার তেল", "nameEn": "mustard oil", "amount": "১", "unit": "কাপ", "importance": "must", "keywords": ["তেল", "oil"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "মেজবানের গোশতে হাড্ডি-চর্বি সব থাকতে অইবো। নাইলে আসইল্লা স্বাদ পাইতা না। সরিষার তেলের ঝাঁঝটা আসল।",
+        "note": "মসলা কষানোর সময় তাড়াহুড়া করন যাইবো না।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "মাংসে সব মসলা ও সরিষার তেল মাখিয়ে ম্যারিনেট করুন।", "timeMinutes": 30, "image": null },
+          { "step": 2, "instruction": "অল্প আঁচে মাংস কষাতে থাকুন।", "timeMinutes": 45, "image": null },
+          { "step": 3, "instruction": "পানি দিয়ে সেদ্ধ করুন এবং শেষে মেজবানি মসলার গুঁড়ো ছিটিয়ে দিন।", "timeMinutes": 45, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "মেজবানি মাংসে রাঁধুনি, সাদা সরিষা, ও পোস্তদানার বিশেষ মিশ্রণ ব্যবহৃত হয়। হাড় ও চর্বি মাংসের ঝোলকে গাঢ় ও সুস্বাদু করে।",
+        "tips": ["সরিষার তেল ব্যবহার বাধ্যতামূলক", "বিশেষ মেজবানি মসলা ঘরে বানিয়ে নিন"]
+      }
+    }
+  },
+  {
+    "id": "loitta-shutki-bhuna",
+    "motherId": "nurjahan-akter",
+    "name": "লইট্টা শুঁটকি ভুনা",
+    "nameEn": "Spicy Loitta Shutki",
+    "difficulty": 2,
+    "timeMinutes": 40,
+    "servings": 4,
+    "tags": ["শুঁটকি", "লইট্টা", "চট্টগ্রাম"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "লইট্টা শুঁটকি", "nameEn": "loitta shutki", "amount": "২০০", "unit": "গ্রাম", "importance": "must", "keywords": ["শুঁটকি", "shutki", "loitta"] },
+      { "name": "রসুন কোয়া", "nameEn": "garlic cloves", "amount": "১", "unit": "কাপ", "importance": "must", "keywords": ["রসুন", "garlic"] },
+      { "name": "শুকনো মরিচ", "nameEn": "dry chili", "amount": "৬", "unit": "টি", "importance": "must", "keywords": ["মরিচ", "chili"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "শুঁটকি আগে গরম পানি দিয়া ভালোমতো ধুইয়া নিবা। রসুন আর মরিচ একটু বেশি না দিলে শুঁটকির ঘ্রাণ খুলতো নয়।",
+        "note": "শুঁটকি বেশি ভাজলে শক্ত হয়ে যাবে।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "শুঁটকি ছোট করে কেটে গরম পানিতে ধুয়ে নিন।", "timeMinutes": 15, "image": null },
+          { "step": 2, "instruction": "তেলে পেঁয়াজ, রসুন ও শুঁটকি ভেজে নিন।", "timeMinutes": 10, "image": null },
+          { "step": 3, "instruction": "সব মসলা দিয়ে ভালো করে কষিয়ে ভাজা ভাজা করে নামান।", "timeMinutes": 15, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "শুঁটকির উগ্র গন্ধ দূর করতে গরম পানি দিয়ে ধোয়া অপরিহার্য। রসুনের ব্যবহার শুঁটকির স্বাদকে ব্যালেন্স করে।",
+        "tips": ["গরম পানিতে ধোয়া মাস্ট", "রসুন আস্ত বা অর্ধেক করে দিন"]
+      }
+    }
+  },
+  {
+    "id": "kala-bhuna",
+    "motherId": "nurjahan-akter",
+    "name": "কালা ভুনা",
+    "nameEn": "Kala Bhuna",
+    "difficulty": 4,
+    "timeMinutes": 150,
+    "servings": 6,
+    "tags": ["গরু", "কালা ভুনা", "চট্টগ্রাম"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "গরুর মাংস", "nameEn": "beef", "amount": "১", "unit": "কেজি", "importance": "must", "keywords": ["মাংস", "beef", "mangsho"] },
+      { "name": "কালো গোলমরিচ ও রাঁধুনি", "nameEn": "black pepper and radhuni", "amount": "১", "unit": "চা চামচ", "importance": "must", "keywords": ["রাঁধুনি", "radhuni", "pepper"] },
+      { "name": "সরিষার তেল", "nameEn": "mustard oil", "amount": "১/২", "unit": "কাপ", "importance": "must", "keywords": ["তেল", "oil"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "কালা ভুনা মানে কিন্তু পুড়াইয়া কালা করন না। মসলা কষাইতে কষাইতে মাংসের রঙ কালা অইবো।",
+        "note": "শেষের দিকে চুলার আঁচ একদম কম রাখবা।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "মাংসে সব মসলা মেখে সেদ্ধ হওয়া পর্যন্ত রান্না করুন।", "timeMinutes": 60, "image": null },
+          { "step": 2, "instruction": "পানি শুকিয়ে গেলে রাঁধুনি ও গরম মসলা দিন।", "timeMinutes": 30, "image": null },
+          { "step": 3, "instruction": "অল্প আঁচে দীর্ঘক্ষণ কষিয়ে কালো রঙ আসা পর্যন্ত রান্না করুন।", "timeMinutes": 60, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "কালা ভুনার কালো রঙ পোড়া থেকে আসে না, বরং দীর্ঘক্ষণ কষানো এবং রাঁধুনি মসলার ব্যবহারের কারণে আসে।",
+        "tips": ["ধৈর্য ধরে কষাতে হবে", "রাঁধুনি মসলা আসল স্বাদ আনে"]
+      }
+    }
+  },
+  {
+    "id": "shorshe-ilish",
+    "motherId": "firoza-khatun",
+    "name": "সর্ষে ইলিশ",
+    "nameEn": "Hilsa in Mustard Sauce",
+    "difficulty": 2,
+    "timeMinutes": 30,
+    "servings": 4,
+    "tags": ["মাছ", "ইলিশ", "বরিশাল"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "ইলিশ মাছ", "nameEn": "hilsa fish", "amount": "৫০০", "unit": "গ্রাম", "importance": "must", "keywords": ["ইলিশ", "ilish", "hilsa"] },
+      { "name": "সরিষা বাটা", "nameEn": "mustard paste", "amount": "৩", "unit": "চামচ", "importance": "must", "keywords": ["সরিষা", "mustard", "shorshe"] },
+      { "name": "কাঁচা মরিচ", "nameEn": "green chili", "amount": "৪", "unit": "টি", "importance": "must", "keywords": ["মরিচ", "chili"] },
+      { "name": "হলুদ", "nameEn": "turmeric", "amount": "১/২", "unit": "চামচ", "importance": "must", "keywords": ["হলুদ", "turmeric"] },
+      { "name": "সরিষার তেল", "nameEn": "mustard oil", "amount": "৩", "unit": "চামচ", "importance": "must", "keywords": ["সরিষার তেল", "mustard oil"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "সরিষা বাটার মধ্যে একটু নুন দিয়া বাটবা, তিতা কমবে। ইলিশে বেশি নাড়াচাড়া করো না — ভাইঙ্গা যাইব।",
+        "note": "তেল ভাসলে বুঝবা হয়ে গেছে।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "ইলিশ মাছ ধুয়ে হলুদ ও লবণ মাখিয়ে রাখো।", "timeMinutes": 5, "image": null },
+          { "step": 2, "instruction": "সরিষা বাটা, হলুদ, লবণ, কাঁচা মরিচ ও সরিষার তেল একসাথে মিশিয়ে পেস্ট বানাও।", "timeMinutes": 5, "image": null },
+          { "step": 3, "instruction": "মাছের উপর পেস্ট মাখিয়ে ঢাকনা দিয়ে মাঝারি আঁচে ১৫ মিনিট রান্না করো।", "timeMinutes": 15, "image": null },
+          { "step": 4, "instruction": "তেল উপরে ভাসলে নামিয়ে নাও।", "timeMinutes": 2, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "ফিরোজা বেগম বলেন 'তেল ভাসলে' — এর মানে হলো রান্নার পানি শুকিয়ে তেল আলাদা হয়ে উপরে উঠে আসবে। এটাই সংকেত যে রান্না শেষ।",
+        "tips": ["ইলিশ বেশি নাড়বে না, ভেঙে যাবে", "সরিষায় একটু নুন দিয়ে বাটলে তিতা কমে"]
+      }
+    }
+  },
+  {
+    "id": "narikol-dudhe-hash",
+    "motherId": "firoza-khatun",
+    "name": "নারিকেল দুধে হাঁস",
+    "nameEn": "Duck in Coconut Milk",
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "servings": 6,
+    "tags": ["হাঁস", "নারিকেল", "বরিশাল"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "হাঁসের মাংস", "nameEn": "duck meat", "amount": "১", "unit": "টি", "importance": "must", "keywords": ["হাঁস", "duck", "hash"] },
+      { "name": "নারিকেলের দুধ", "nameEn": "coconut milk", "amount": "২", "unit": "কাপ", "importance": "must", "keywords": ["নারিকেল", "coconut", "narikol"] },
+      { "name": "আস্ত গরম মসলা", "nameEn": "whole garam masala", "amount": "১", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["মসলা", "spice"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "হাঁসের গোশতে একটু গন্ধ থাকে, ভালো কইরা ভুইজা নিবা। নারিকেলের দুধ দিলে স্বাদ খোলবে।",
+        "note": "চামড়াসহ রান্ধলে স্বাদ বেশি অয়।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "হাঁসের মাংস ছোট করে কেটে মসলা দিয়ে কষিয়ে নিন।", "timeMinutes": 30, "image": null },
+          { "step": 2, "instruction": "মাংস সেদ্ধ হতে শুরু করলে নারিকেলের দুধ ঢেলে দিন।", "timeMinutes": 40, "image": null },
+          { "step": 3, "instruction": "ঝোল ঘন ও তেল উপরে উঠে এলে নামিয়ে নিন।", "timeMinutes": 20, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "নারিকেলের দুধ হাঁসের মাংসের কড়া গন্ধকে প্রশমিত করে এবং গ্রেভিতে একটি মিষ্টি ও ক্রিমি টেক্সচার আনে।",
+        "tips": ["মাংস ভালো করে কষানো জরুরি", "চামড়াসহ রান্না করুন"]
+      }
+    }
+  },
+  {
+    "id": "kochur-loti-chingri",
+    "motherId": "firoza-khatun",
+    "name": "কচুর লতি দিয়া চিংড়ি",
+    "nameEn": "Taro Stolon with Shrimp",
+    "difficulty": 2,
+    "timeMinutes": 45,
+    "servings": 4,
+    "tags": ["কচুর লতি", "চিংড়ি", "বরিশাল"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "কচুর লতি", "nameEn": "taro stolon", "amount": "৫০০", "unit": "গ্রাম", "importance": "must", "keywords": ["লতি", "stolon", "kochu"] },
+      { "name": "ছোট চিংড়ি", "nameEn": "small shrimp", "amount": "২০০", "unit": "গ্রাম", "importance": "must", "keywords": ["চিংড়ি", "shrimp", "chingri"] },
+      { "name": "লেবুর রস", "nameEn": "lemon juice", "amount": "১", "unit": "চা চামচ", "importance": "optional", "keywords": ["লেবু", "lemon"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "লতি বাছার সময় হাতে একটু তেল মাইখা নিবা, চুলকাইবো না। আর রান্ধার শেষে একটু লেবুর রস দিলে গলা ধরবো না।",
+        "note": "লতি বেশি ঘোঁটবা না, গইলা গেলে ভালো লাগে না।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "লতি পরিষ্কার করে সামান্য ভাপ দিয়ে পানি ফেলে দিন।", "timeMinutes": 15, "image": null },
+          { "step": 2, "instruction": "পেঁয়াজ, রসুন ও মসলা কষিয়ে চিংড়ি মাছ দিন।", "timeMinutes": 10, "image": null },
+          { "step": 3, "instruction": "লতি দিয়ে ঢেকে দিন, সেদ্ধ হলে লেবুর রস ছড়িয়ে নামান।", "timeMinutes": 20, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "কচুর লতিতে থাকা ক্যালসিয়াম অক্সালেট গলা চুলকানোর কারণ। লেবুর রসের অ্যাসিড এটিকে নিষ্ক্রিয় করে।",
+        "tips": ["লতি পরিষ্কারের সময় হাতে তেল মেখে নিন", "অতিরিক্ত সেদ্ধ করবেন না"]
+      }
+    }
+  },
+  {
+    "id": "gorur-tehari",
+    "motherId": "salma-bano",
+    "name": "গরুর তেহারি",
+    "nameEn": "Beef Tehari",
+    "difficulty": 3,
+    "timeMinutes": 75,
+    "servings": 6,
+    "tags": ["তেহারি", "গরু", "পুরান ঢাকা"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "পোলাওয়ের চাল", "nameEn": "aromatic rice", "amount": "৫০০", "unit": "গ্রাম", "importance": "must", "keywords": ["চাল", "rice", "tehari"] },
+      { "name": "গরুর মাংস (ছোট টুকরো)", "nameEn": "beef chunks", "amount": "৭৫০", "unit": "গ্রাম", "importance": "must", "keywords": ["মাংস", "beef", "gorur"] },
+      { "name": "সরিষার তেল", "nameEn": "mustard oil", "amount": "১/২", "unit": "কাপ", "importance": "must", "keywords": ["তেল", "oil"] },
+      { "name": "কাঁচা মরিচ", "nameEn": "green chilies", "amount": "১০", "unit": "টি", "importance": "must", "keywords": ["মরিচ", "chili"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "তেহারির আসল জান হইলো সরিষার তেল আর কাঁচা মরিচের ঘ্রাণ। গোশতগুলা একদম ছোট ছোট টুকরা করবা।",
+        "note": "পানিতে বলক আসলে চাল দিবা।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "সরিষার তেলে মাংস, আদা-রসুন ও কাঁচা মরিচ দিয়ে সেদ্ধ করে নিন।", "timeMinutes": 40, "image": null },
+          { "step": 2, "instruction": "মাংস তুলে নিয়ে সেই তেলেই পানি ও চাল দিন।", "timeMinutes": 15, "image": null },
+          { "step": 3, "instruction": "চাল আধা সেদ্ধ হলে মাংস মিশিয়ে দমে বসান।", "timeMinutes": 20, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "পুরান ঢাকার তেহারিতে গুঁড়ো মরিচ বা হলুদ ব্যবহার করা হয় না। এর সাদাটে রঙ এবং ঝাল মূলত কাঁচা মরিচ থেকে আসে।",
+        "tips": ["মাংসের টুকরো ছোট রাখুন", "সরিষার তেলই ব্যবহার করুন"]
+      }
+    }
+  },
+  {
+    "id": "murgir-roast",
+    "motherId": "salma-bano",
+    "name": "মুরগির রোস্ট",
+    "nameEn": "Chicken Roast",
+    "difficulty": 3,
+    "timeMinutes": 60,
+    "servings": 4,
+    "tags": ["মুরগি", "রোস্ট", "বিয়েবাড়ি"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "মুরগির রান", "nameEn": "chicken leg pieces", "amount": "৪", "unit": "টি", "importance": "must", "keywords": ["মুরগি", "chicken", "murgi"] },
+      { "name": "টক দই", "nameEn": "yogurt", "amount": "১/২", "unit": "কাপ", "importance": "must", "keywords": ["দই", "yogurt"] },
+      { "name": "কাজু ও পেস্তাবাদাম বাটা", "nameEn": "nut paste", "amount": "২", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["বাদাম", "nuts"] },
+      { "name": "ঘি", "nameEn": "ghee", "amount": "২", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["ঘি", "ghee"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "মুরগি হালকা ভাইজা নিবা আগে, তাইলে রোস্টের শেপ ঠিক থাকবো। আর নামানোর আগে একটু ঘি দিলে শাহি ঘ্রাণ আইবো।",
+        "note": "বাদাম বাটা দিলে গ্রেভিটা ঘন হয়।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "মুরগির টুকরোগুলো লবণ মেখে হালকা ভেজে নিন।", "timeMinutes": 15, "image": null },
+          { "step": 2, "instruction": "পেঁয়াজ বেরেস্তা করে মসলা, দই ও বাদাম বাটা কষান।", "timeMinutes": 15, "image": null },
+          { "step": 3, "instruction": "মুরগি দিয়ে ঢেকে রান্না করুন, শেষে ঘি ও কাঁচা মরিচ দিন।", "timeMinutes": 30, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "বাদাম বাটা এবং দইয়ের সংমিশ্রণ গ্রেভিকে ক্রিমি করে তোলে। ভাজার কারণে মুরগির বাইরের অংশ শক্ত হয় যা দীর্ঘক্ষণ রান্নাতেও ভেঙে যায় না।",
+        "tips": ["মুরগি কড়া করে ভাজবেন না", "ঘি শেষে দিন ঘ্রাণের জন্য"]
+      }
+    }
+  },
+  {
+    "id": "jali-kabab",
+    "motherId": "salma-bano",
+    "name": "জালি কাবাব",
+    "nameEn": "Jali Kabab",
+    "difficulty": 3,
+    "timeMinutes": 45,
+    "servings": 6,
+    "tags": ["কাবাব", "গরু", "পুরান ঢাকা"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "গরুর কিমা", "nameEn": "minced beef", "amount": "৫০০", "unit": "গ্রাম", "importance": "must", "keywords": ["কিমা", "beef", "kabab"] },
+      { "name": "পাউরুটি", "nameEn": "bread slices", "amount": "২", "unit": "টি", "importance": "must", "keywords": ["পাউরুটি", "bread"] },
+      { "name": "ডিম", "nameEn": "egg", "amount": "২", "unit": "টি", "importance": "must", "keywords": ["ডিম", "egg"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "ডিমটা ভালো কইরা ফেটায়া কাবাবের উপরে জালের মতো ছড়াইয়া দিবা। এই জালের লাইগাই তো এর নাম জালি কাবাব।",
+        "note": "কিমা মিহি হইতে হইবো।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "কিমার সাথে মসলা ও ভেজানো পাউরুটি মেখে কাবাবের আকার দিন।", "timeMinutes": 20, "image": null },
+          { "step": 2, "instruction": "কাবাব ফেটানো ডিমে চুবিয়ে তেলে ছাড়ুন।", "timeMinutes": 10, "image": null },
+          { "step": 3, "instruction": "ভাজার সময় উপর থেকে আরও ডিম ছিটিয়ে জালের মতো তৈরি করুন।", "timeMinutes": 15, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "পাউরুটি কাবাবকে নরম রাখতে সাহায্য করে। ভাজার সময় ডিমের ছিটা দিলে তা তেলের গরমে জালের মতো আকার ধারণ করে।",
+        "tips": ["কিমা পানি ঝরানো হতে হবে", "ডিম বেশি করে ফেটিয়ে নিন"]
+      }
+    }
+  },
+  {
+    "id": "kalai-ruti",
+    "motherId": "ayesha-siddiqua",
+    "name": "কালাই রুটি",
+    "nameEn": "Kalai Ruti",
+    "difficulty": 4,
+    "timeMinutes": 30,
+    "servings": 2,
+    "tags": ["রুটি", "কালাই", "রাজশাহী"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "মাষকলাই ডালের আটা", "nameEn": "black gram flour", "amount": "১", "unit": "কাপ", "importance": "must", "keywords": ["ডাল", "flour", "kalai"] },
+      { "name": "চালের গুঁড়া", "nameEn": "rice flour", "amount": "১/২", "unit": "কাপ", "importance": "must", "keywords": ["চাল", "rice flour"] },
+      { "name": "লবণ", "nameEn": "salt", "amount": "১", "unit": "চিমটি", "importance": "must", "keywords": ["লবণ", "salt"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "কালাই রুটি বেলন দিয়া বেলা যায় না, হাত দিয়া ঘুরাইয়া ঘুরাইয়া বড় করা লাগে। একটু মোটা রাখবা।",
+        "note": "মাটির তাওয়ায় সেঁকলে আসল স্বাদ পাবা।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "দুই রকম আটা ও লবণ পানি দিয়ে শক্ত খামির তৈরি করুন।", "timeMinutes": 10, "image": null },
+          { "step": 2, "instruction": "হাতে পানি বা আটা মেখে ঘুরিয়ে ঘুরিয়ে রুটি বড় করুন।", "timeMinutes": 10, "image": null },
+          { "step": 3, "instruction": "মাটির তাওয়ায় দুই পিঠ ভালোভাবে সেঁকে নিন।", "timeMinutes": 10, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "মাষকলাই ডালের আঠালো ভাবের কারণে এটি বেলন দিয়ে বেলা কঠিন। হাতের সাহায্যে চাপ দিয়ে রুটির আকার দিতে হয়।",
+        "tips": ["খামির খুব নরম করবেন না", "মাটির তাওয়া ব্যবহার করুন"]
+      }
+    }
+  },
+  {
+    "id": "hasher-mangsho-rajshahi",
+    "motherId": "ayesha-siddiqua",
+    "name": "হাঁসের মাংস",
+    "nameEn": "Duck Curry",
+    "difficulty": 3,
+    "timeMinutes": 75,
+    "servings": 5,
+    "tags": ["হাঁস", "মাংস", "রাজশাহী"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "হাঁস", "nameEn": "duck", "amount": "১", "unit": "টি", "importance": "must", "keywords": ["হাঁস", "duck", "hash"] },
+      { "name": "আদা-রসুন বাটা", "nameEn": "ginger-garlic paste", "amount": "৩", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["আদা", "রসুন", "ginger", "garlic"] },
+      { "name": "জিরা বাটা", "nameEn": "cumin paste", "amount": "১", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["জিরা", "cumin"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "কালাই রুটির সাথে হাঁসের গোশত না খাইলে কি চলে? একটু ঝাল ঝাল কইরা ভুনা করবা।",
+        "note": "হাঁসের চামড়া ফেলবা না।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "হাঁসের মাংস কেটে পরিষ্কার করে নিন।", "timeMinutes": 15, "image": null },
+          { "step": 2, "instruction": "তেলে সব মসলা কষিয়ে মাংস দিন।", "timeMinutes": 15, "image": null },
+          { "step": 3, "instruction": "ঢাকনা দিয়ে দীর্ঘক্ষণ কষিয়ে সেদ্ধ করুন।", "timeMinutes": 45, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "হাঁসের মাংসে প্রাকৃতিকভাবেই চর্বি থাকে যা চামড়ার নিচে জমা থাকে। চামড়াসহ রান্না করলে সেই চর্বি তরকারিতে মিশে স্বাদ বাড়ায়।",
+        "tips": ["হাঁসের মাংস ভালোভাবে কষানো জরুরি", "কালাই রুটির সাথে পরিবেশন করুন"]
+      }
+    }
+  },
+  {
+    "id": "bot-bhuna",
+    "motherId": "ayesha-siddiqua",
+    "name": "বট ভুনা",
+    "nameEn": "Beef Tripe Bhuna",
+    "difficulty": 4,
+    "timeMinutes": 180,
+    "servings": 6,
+    "tags": ["বট", "ভুঁড়ি", "রাজশাহী"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "গরুর বট/ভুঁড়ি", "nameEn": "beef tripe", "amount": "১", "unit": "কেজি", "importance": "must", "keywords": ["বট", "tripe", "bhoori"] },
+      { "name": "হলুদ-মরিচ গুঁড়ো", "nameEn": "turmeric-chili powder", "amount": "২", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["মসলা", "spice"] },
+      { "name": "পেঁয়াজ কুচি", "nameEn": "chopped onion", "amount": "২", "unit": "কাপ", "importance": "must", "keywords": ["পেঁয়াজ", "onion"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "বট পরিষ্কার করাই হইলো আসল কাজ। গরম পানি দিয়া ঘইষা ঘইষা সাদা কইরা ফেলবা। এরপর ভুনা করবা কড়া কইরা।",
+        "note": "বটে একটুও গন্ধ থাকা যাইবো না।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "বট গরম পানিতে সেদ্ধ করে ভালোভাবে পরিষ্কার করুন।", "timeMinutes": 60, "image": null },
+          { "step": 2, "instruction": "ছোট টুকরো করে হলুদ-লবণ দিয়ে সেদ্ধ করে পানি ফেলে দিন।", "timeMinutes": 60, "image": null },
+          { "step": 3, "instruction": "পেঁয়াজ ও মসলা দিয়ে তেল ওঠা পর্যন্ত ভুনা করুন।", "timeMinutes": 60, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "ভুঁড়ি বা বট পরিষ্কার করতে গরম পানি ব্যবহার করা হয়। দুইবার সেদ্ধ করে পানি ফেলে দিলে এর দুর্গন্ধ দূর হয়।",
+        "tips": ["পরিষ্কার করার সময় সতর্ক থাকুন", "ভাজা ভাজা করে নামান"]
+      }
+    }
+  },
+  {
+    "id": "chuijhal-gorur-mangsho",
+    "motherId": "rehena-parveen",
+    "name": "চুইঝাল গরুর মাংস",
+    "nameEn": "Beef with Chuijhal",
+    "difficulty": 3,
+    "timeMinutes": 90,
+    "servings": 6,
+    "tags": ["গরু", "চুইঝাল", "খুলনা"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "গরুর মাংস", "nameEn": "beef", "amount": "১", "unit": "কেজি", "importance": "must", "keywords": ["মাংস", "beef", "gorur"] },
+      { "name": "চুইঝাল", "nameEn": "chui jhal stems", "amount": "১০০", "unit": "গ্রাম", "importance": "must", "keywords": ["চুইঝাল", "chui", "chuijhal"] },
+      { "name": "আস্ত রসুন", "nameEn": "whole garlic", "amount": "৪", "unit": "টি", "importance": "must", "keywords": ["রসুন", "garlic"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "চুইঝাল হইলো খুলনার জান। চুইয়ের ঝাল মরিচের মতো না, এটা গলা দিয়া নামার সময় আরাম লাগে।",
+        "note": "আস্ত রসুন দিতে ভুলবা না।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "চুইঝালের ডাল ছোট টুকরো করে কেটে ছিলে নিন।", "timeMinutes": 10, "image": null },
+          { "step": 2, "instruction": "মাংসে সব মসলা মেখে কষাতে শুরু করুন।", "timeMinutes": 45, "image": null },
+          { "step": 3, "instruction": "অর্ধেক সেদ্ধ হলে চুইঝালের টুকরো ও আস্ত রসুন দিয়ে পুরোপুরি সেদ্ধ করুন।", "timeMinutes": 35, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "চুইঝাল পিপারাসি পরিবারের একটি লতা। এর কাণ্ডে পিপারিন থাকে যা মরিচের মতো তীক্ষ্ণ নয়, বরং একটি উষ্ণ, কাঠুরে ঝাল স্বাদ তৈরি করে।",
+        "tips": ["চুইঝালের চামড়া ছিলে নিতে হবে", "আস্ত রসুন তরকারির স্বাদ বাড়ায়"]
+      }
+    }
+  },
+  {
+    "id": "golda-chingri-bhuna",
+    "motherId": "rehena-parveen",
+    "name": "গলদা চিংড়ি ভুনা",
+    "nameEn": "Golda Chingri Bhuna",
+    "difficulty": 2,
+    "timeMinutes": 35,
+    "servings": 4,
+    "tags": ["চিংড়ি", "গলদা", "খুলনা"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "গলদা চিংড়ি", "nameEn": "giant freshwater prawn", "amount": "৪", "unit": "টি", "importance": "must", "keywords": ["চিংড়ি", "prawn", "golda"] },
+      { "name": "পেঁয়াজ বাটা", "nameEn": "onion paste", "amount": "৩", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["পেঁয়াজ", "onion"] },
+      { "name": "নারিকেল বাটা", "nameEn": "coconut paste", "amount": "১", "unit": "টেবিল চামচ", "importance": "optional", "keywords": ["নারিকেল", "coconut"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "চিংড়ি মাছ বেশি ভাজলে রবারের মতো শক্ত হইয়া যায়। হালকা ভাইজা মসলায় কষাবা।",
+        "note": "মাথার ঘিলুটা তরকারিতে দিলে রঙ সুন্দর হয়।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "চিংড়ির খোসা ছাড়িয়ে (মাথা রেখে) পরিষ্কার করুন।", "timeMinutes": 10, "image": null },
+          { "step": 2, "instruction": "লবণ-হলুদ মেখে চিংড়িগুলো হালকা ভেজে তুলুন।", "timeMinutes": 5, "image": null },
+          { "step": 3, "instruction": "তেলে মসলা কষিয়ে চিংড়ি দিন এবং অল্প পানিতে ভুনা করুন।", "timeMinutes": 20, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "চিংড়ি খুব দ্রুত রান্না হয়। অতিরিক্ত তাপে এর প্রোটিন সংকুচিত হয়ে শক্ত ও রাবারের মতো টেক্সচার তৈরি করে।",
+        "tips": ["মাথা পুরোপুরি ফেলবেন না", "১-২ মিনিটের বেশি ভাজবেন না"]
+      }
+    }
+  },
+  {
+    "id": "parshe-macher-jhol",
+    "motherId": "rehena-parveen",
+    "name": "পার্শে মাছের ঝোল",
+    "nameEn": "Parshe Fish Curry",
+    "difficulty": 2,
+    "timeMinutes": 30,
+    "servings": 4,
+    "tags": ["মাছ", "পার্শে", "খুলনা"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "পার্শে মাছ", "nameEn": "parshe fish", "amount": "৫০০", "unit": "গ্রাম", "importance": "must", "keywords": ["মাছ", "fish", "parshe"] },
+      { "name": "কালোজিরা", "nameEn": "nigella seeds", "amount": "১/২", "unit": "চা চামচ", "importance": "must", "keywords": ["কালোজিরা", "nigella"] },
+      { "name": "ধনে পাতা", "nameEn": "coriander leaves", "amount": "২", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["ধনে পাতা", "coriander"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "তাজা পার্শে মাছ হইলে বেশি মসলা দিবা না। কালোজিরা আর কাঁচামরিচের ফোড়ন দিয়া পাতলা ঝোল করবা।",
+        "note": "নামানোর আগে ধনে পাতা দিতে ভুলবা না।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "মাছগুলো পরিষ্কার করে হালকা ভেজে নিন।", "timeMinutes": 10, "image": null },
+          { "step": 2, "instruction": "তেলে কালোজিরা ও কাঁচামরিচ ফোড়ন দিন।", "timeMinutes": 5, "image": null },
+          { "step": 3, "instruction": "পানি ও সামান্য হলুদ দিয়ে ঝোল ফুটলে মাছ ও ধনে পাতা দিন।", "timeMinutes": 15, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "তাজা মাছের নিজস্ব একটি স্বাদ থাকে। তীব্র মসলা ব্যবহার করলে সেই স্বাদ ঢাকা পড়ে যায়, তাই পাতলা ঝোলই শ্রেয়।",
+        "tips": ["মাছ কড়া করে ভাজবেন না", "কালোজিরার ফোড়ন আসল স্বাদ আনে"]
+      }
+    }
+  },
+  {
+    "id": "choto-macher-chorchori",
+    "motherId": "hafiza-khatun",
+    "name": "ছোট মাছের চরচরি",
+    "nameEn": "Small Fish Chorchori",
+    "difficulty": 2,
+    "timeMinutes": 30,
+    "servings": 4,
+    "tags": ["মাছ", "চরচরি", "ময়মনসিংহ"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "মলা/ঢেলা মাছ", "nameEn": "small fish", "amount": "২৫০", "unit": "গ্রাম", "importance": "must", "keywords": ["মাছ", "fish", "mola"] },
+      { "name": "আলু ও বেগুন কুচি", "nameEn": "julienned potato & eggplant", "amount": "১", "unit": "কাপ", "importance": "must", "keywords": ["সবজি", "vegetables", "potato"] },
+      { "name": "সরিষার তেল", "nameEn": "mustard oil", "amount": "২", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["তেল", "oil"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "সবজি আর মাছ হাতে মাখাইয়া একলগে বসাইয়া দিবা। চরচরানি শব্দ উঠলে বুঝবা রান্না শেষ।",
+        "note": "রান্নার সময় খুন্তি দিয়া বেশি নাড়াচাড়া করবা না।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "মাছ, সবজি, তেল ও সব মসলা একসাথে হাতে মেখে নিন।", "timeMinutes": 10, "image": null },
+          { "step": 2, "instruction": "অল্প পানি দিয়ে চুলায় বসান।", "timeMinutes": 5, "image": null },
+          { "step": 3, "instruction": "পানি শুকিয়ে তেল ছাড়লে এবং পোড়া পোড়া শব্দ হলে নামিয়ে নিন।", "timeMinutes": 15, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "হাতে মাখার কারণে মসলা সবজির ভেতরে ভালোভাবে ঢোকে। ছোট মাছ নরম হওয়ায় নাড়াচাড়া করলে ভেঙে যেতে পারে।",
+        "tips": ["সবজি খুব চিকন করে কাটতে হবে", "হাতে মাখানো বাধ্যতামূলক"]
+      }
+    }
+  },
+  {
+    "id": "shol-mach-bhuna",
+    "motherId": "hafiza-khatun",
+    "name": "শোল মাছ ভুনা",
+    "nameEn": "Shol Fish Bhuna",
+    "difficulty": 2,
+    "timeMinutes": 40,
+    "servings": 4,
+    "tags": ["মাছ", "শোল", "ময়মনসিংহ"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "শোল মাছ", "nameEn": "shol fish", "amount": "৫০০", "unit": "গ্রাম", "importance": "must", "keywords": ["মাছ", "fish", "shol"] },
+      { "name": "পেঁয়াজ বাটা", "nameEn": "onion paste", "amount": "২", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["পেঁয়াজ", "onion"] },
+      { "name": "টমেটো", "nameEn": "tomato", "amount": "১", "unit": "টি", "importance": "optional", "keywords": ["টমেটো", "tomato"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "শোল মাছে একটু আষ্টে গন্ধ থাকে, রান্ধার আগে গরম পানি আর লবণ দিয়া ভালো কইরা ধুইবা।",
+        "note": "ভুনাটা মাখা মাখা হইবো।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "মাছ গরম পানি ও লবণ দিয়ে ধুয়ে পরিষ্কার করুন।", "timeMinutes": 10, "image": null },
+          { "step": 2, "instruction": "মাছগুলো হলুদ-লবণ মেখে ভেজে তুলে রাখুন।", "timeMinutes": 10, "image": null },
+          { "step": 3, "instruction": "পেঁয়াজ, টমেটো ও মসলা কষিয়ে মাছ দিয়ে ভুনা করুন।", "timeMinutes": 20, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "শোল মাছ কাদায় থাকে বলে এর গায়ে এক ধরণের স্লাইম থাকে। গরম পানি ও লবণ সেই আঠালো ভাব ও গন্ধ দূর করে।",
+        "tips": ["ধোয়ার দিকে বিশেষ নজর দিন", "মাখা মাখা ঝোল রাখুন"]
+      }
+    }
+  },
+  {
+    "id": "taki-macher-bhorta",
+    "motherId": "hafiza-khatun",
+    "name": "টাকি মাছের ভর্তা",
+    "nameEn": "Taki Fish Bhorta",
+    "difficulty": 3,
+    "timeMinutes": 45,
+    "servings": 4,
+    "tags": ["ভর্তা", "টাকি", "ময়মনসিংহ"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "টাকি মাছ", "nameEn": "taki fish", "amount": "৩০০", "unit": "গ্রাম", "importance": "must", "keywords": ["মাছ", "fish", "taki"] },
+      { "name": "শুকনো মরিচ", "nameEn": "dry red chilies", "amount": "৪", "unit": "টি", "importance": "must", "keywords": ["মরিচ", "chili"] },
+      { "name": "রসুন", "nameEn": "garlic cloves", "amount": "৫", "unit": "টি", "importance": "must", "keywords": ["রসুন", "garlic"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "টাকি মাছ সিদ্ধ কইরা কাঁটা বাইছা নিবা আগে। এরপর তেল, শুকনা মরিচ আর রসুন দিয়া কড়াইয়ে টাইলা নিবা।",
+        "note": "কাঁটা বাছতে একটু সময় লাগে, কিন্তু খাইতে অমৃত।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "টাকি মাছ হলুদ দিয়ে সেদ্ধ করে সাবধানে কাঁটা বেছে নিন।", "timeMinutes": 20, "image": null },
+          { "step": 2, "instruction": "শুকনো মরিচ, পেঁয়াজ ও রসুন তেলে ভেজে নিন।", "timeMinutes": 10, "image": null },
+          { "step": 3, "instruction": "সব একসাথে পাটায় বেটে বা হাত দিয়ে মেখে ভর্তা তৈরি করুন।", "timeMinutes": 15, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "টাকি মাছের কাঁটা বেশ শক্ত হয়। সেদ্ধ করার পর কাঁটাগুলো আলগা হয়ে যায়, যা বেছে নেওয়া সহজ করে তোলে।",
+        "tips": ["মাঝখানের কাঁটাটি সাবধানে ফেলুন", "সরষের তেল দিয়ে মাখুন"]
+      }
+    }
+  },
+  {
+    "id": "roshomalai",
+    "motherId": "shirin-sultana",
+    "name": "রসমালাই",
+    "nameEn": "Rasmalai",
+    "difficulty": 4,
+    "timeMinutes": 90,
+    "servings": 6,
+    "tags": ["মিষ্টি", "দুধ", "কুমিল্লা"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "দুধ", "nameEn": "milk", "amount": "২", "unit": "লিটার", "importance": "must", "keywords": ["দুধ", "milk", "roshomalai"] },
+      { "name": "ভিনেগার বা লেবুর রস", "nameEn": "vinegar or lemon juice", "amount": "২", "unit": "টেবিল চামচ", "importance": "must", "keywords": ["ভিনেগার", "vinegar", "lemon"] },
+      { "name": "চিনি", "nameEn": "sugar", "amount": "১", "unit": "কাপ", "importance": "must", "keywords": ["চিনি", "sugar"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "ছানা বেশি শুকাইয়া ফেললে মিষ্টি শক্ত হইয়া যাইবো। আর দুধ জ্বাল দিয়া ঘন করার উপরেই রসমালাইয়ের আসল মজা।",
+        "note": "মিষ্টি বানানোর সময় হাতে যেন ফাটল না থাকে।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "১ লিটার দুধ থেকে ছানা কেটে পানি ঝরিয়ে ভালো করে মথে ছোট ছোট মিষ্টি বানান।", "timeMinutes": 40, "image": null },
+          { "step": 2, "instruction": "চিনির শিরায় মিষ্টিগুলো সেদ্ধ করে তুলে নিন।", "timeMinutes": 20, "image": null },
+          { "step": 3, "instruction": "বাকি দুধ জ্বাল দিয়ে ঘন মালাই তৈরি করুন এবং তাতে মিষ্টিগুলো ডুবিয়ে রাখুন।", "timeMinutes": 30, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "ছানা মথার সময় এর প্রোটিন চেইনগুলো মসৃণ হয়। মথা ভালো না হলে শিরায় দেওয়ার সাথে সাথে মিষ্টি ফেটে যাবে।",
+        "tips": ["ছানার পানি সম্পূর্ণ ঝরানো জরুরি", "মালাই খুব বেশি ঘন করবেন না"]
+      }
+    }
+  },
+  {
+    "id": "dim-chitoi",
+    "motherId": "shirin-sultana",
+    "name": "ডিম চিতই",
+    "nameEn": "Egg Chitoi Pitha",
+    "difficulty": 3,
+    "timeMinutes": 45,
+    "servings": 4,
+    "tags": ["পিঠা", "ডিম", "কুমিল্লা"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "চালের গুঁড়া", "nameEn": "rice flour", "amount": "২", "unit": "কাপ", "importance": "must", "keywords": ["চাল", "rice", "pitha"] },
+      { "name": "ডিম", "nameEn": "egg", "amount": "৪", "unit": "টি", "importance": "must", "keywords": ["ডিম", "egg"] },
+      { "name": "লবণ", "nameEn": "salt", "amount": "১/২", "unit": "চা চামচ", "importance": "must", "keywords": ["লবণ", "salt"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "খোলার আঁচ ঠিক না থাকলে চিতই ফুলবো না। পিঠা অর্ধেক হওয়ার পর ডিমটা ভাইঙ্গা দিবা উপরে।",
+        "note": "লোহার বা মাটির খোলা ব্যবহার করবা।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "চালের গুঁড়া, কুসুম গরম পানি ও লবণ দিয়ে তরল গোলা তৈরি করুন।", "timeMinutes": 20, "image": null },
+          { "step": 2, "instruction": "গরম খোলায় গোলা ঢেলে ঢেকে দিন।", "timeMinutes": 10, "image": null },
+          { "step": 3, "instruction": "পিঠা একটু ফুলে উঠলে তার ওপর একটি ডিম ভেঙে দিন এবং আবার ঢেকে সেদ্ধ করুন।", "timeMinutes": 15, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "চিতই পিঠা ফোলার জন্য খোলাটি সঠিকভাবে গরম হওয়া অত্যাবশ্যক। ডিমটি পিঠার বাষ্পেই সেদ্ধ হয়ে যায়।",
+        "tips": ["গোলা খুব ঘন বা পাতলা হবে না", "খোলায় তেল ব্রাশ করে নিতে পারেন"]
+      }
+    }
+  },
+  {
+    "id": "deshi-murgir-jhol",
+    "motherId": "shirin-sultana",
+    "name": "দেশি মুরগির ঝোল",
+    "nameEn": "Deshi Chicken Curry",
+    "difficulty": 2,
+    "timeMinutes": 60,
+    "servings": 5,
+    "tags": ["মুরগি", "ঝোল", "কুমিল্লা"],
+    "coverImage": null,
+    "ingredients": [
+      { "name": "দেশি মুরগি", "nameEn": "local chicken", "amount": "১", "unit": "টি", "importance": "must", "keywords": ["মুরগি", "chicken", "deshi"] },
+      { "name": "নতুন আলু", "nameEn": "new potatoes", "amount": "৪", "unit": "টি", "importance": "must", "keywords": ["আলু", "potato"] },
+      { "name": "আস্ত জিরা", "nameEn": "whole cumin", "amount": "১/২", "unit": "চা চামচ", "importance": "must", "keywords": ["জিরা", "cumin"] }
+    ],
+    "layers": {
+      "motherVoice": {
+        "text": "দেশি মুরগির ঝোল আলু ছাড়া জমে না। জিরার বাটা মসলায় পাতলা ঝোল করবা, গরম ভাতে সেই স্বাদ।",
+        "note": "মুরগি সেদ্ধ হইতে একটু সময় লাগে।"
+      },
+      "kitchenReality": {
+        "steps": [
+          { "step": 1, "instruction": "মুরগির মাংস টুকরো করে কেটে ধুয়ে নিন। আলু দুই টুকরো করে নিন।", "timeMinutes": 15, "image": null },
+          { "step": 2, "instruction": "তেলে জিরা ফোড়ন দিয়ে মসলা কষান এবং মাংস দিন।", "timeMinutes": 20, "image": null },
+          { "step": 3, "instruction": "মাংস অর্ধেক সেদ্ধ হলে আলু দিন এবং পর্যাপ্ত পানি দিয়ে পাতলা ঝোল তৈরি করুন।", "timeMinutes": 25, "image": null }
+        ]
+      },
+      "aiBridge": {
+        "text": "ফার্মের মুরগির তুলনায় দেশি মুরগির মাংস শক্ত হয় এবং এটি রান্না হতে বেশি সময় নেয়। হাড় থেকে নির্গত কোলাজেন ঝোলকে সুস্বাদু করে।",
+        "tips": ["আলু আগে ভেজে নিতে পারেন", "ঢাকনা দিয়ে মাঝারি আঁচে রান্না করুন"]
+      }
+    }
+  }
+]
